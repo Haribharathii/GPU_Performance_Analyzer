@@ -1,0 +1,4 @@
+g++ -o gpu_monitor gpu_monitor.cpp -lnvidia-ml
+pip install flask
+python gpu_monitor_api.py
+curl http://127.0.0.1:5000/gpu-stats
